@@ -6,6 +6,9 @@ step, no dev server. Open `index.html` in a browser and it works.
 Keeping it that way is a deliberate choice: the site should be openable, editable and recoverable by
 anyone with the repo, without a toolchain or a vendor account.
 
+**Picking this up for the first time? Start with [NEXT-STEPS.md](NEXT-STEPS.md)** — what's done, what's
+left, and how the DNS cutover works.
+
 ---
 
 ## Layout
