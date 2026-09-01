@@ -44,10 +44,9 @@ var FORM_ENDPOINT = 'https://formsubmit.co/ajax/inquire@embolizationinc.com';
 It posts JSON, shows an inline success state, and on any failure falls back to a pre-filled
 `mailto:` link so a visitor is never left with a dead button.
 
-**One-time activation:** FormSubmit requires the destination address to be confirmed once. The first
-submission sends a confirmation email to `inquire@embolizationinc.com`; click the link in it and the
-form is live permanently. Until that click, submissions surface the mailto fallback rather than
-failing silently.
+**Activation:** FormSubmit requires the destination address to be confirmed once. This was completed
+on 1 September 2026, so the form delivers to `inquire@embolizationinc.com`. If the destination address
+ever changes, the new address needs the same one-time confirmation.
 
 To move to another provider — Formspree, HubSpot, a serverless function — change that one constant.
 Nothing else depends on it.
